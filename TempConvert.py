@@ -15,7 +15,7 @@ def main():
   #Output converted temperature.
   tempF=float(temp_f)
 
-  tempC=round((tempF-32)*5/9,0)
+  tempC=round((tempF-32)*5/9,1)
 
   print(f"{tempF}F is {tempC}C")
 if __name__ == '__main__':
